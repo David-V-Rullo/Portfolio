@@ -1,0 +1,43 @@
+.content-flex-parent {
+    /* display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap; */
+    margin: 10px;
+    padding: 30px;
+    background-color: navy;
+    color: white;
+}
+.top-content {
+    display:flex;
+    justify-content: space-between;
+
+}
+p {
+    padding: 25px;
+}
+.about-twin, .work-twin {
+    height: 200px;
+    width: 100px;
+    border: 2px solid greenyellow;
+    margin: auto;
+    padding:25px;
+}
+.about-content
+
+.work-card {
+    border: 2px solid greenyellow;
+    margin: auto;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+
+}
+.work {
+    display: flex;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px;
+    padding: 25px;
+    }
