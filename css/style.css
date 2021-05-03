@@ -21,11 +21,11 @@ p {
     margin: auto;
     max-width: 40em;
 }
-.about-twin {
+.content-heading {
+    display:flex;
+    align-content:flex-start;
     border: 2px solid greenyellow;
     /* width: 300px; */
-    text-align: center;
-    padding: 2em
 }
 .navigation {
     display: flex;
@@ -47,7 +47,17 @@ p {
   .navigation a:hover {
     background: #1565C0;
   }
+  .work {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid greenyellow;
+  }
   
+  .work-card {
+    border: 2px solid greenyellow;
+  }
   @media all and (max-width: 800px) {
     .navigation {
       justify-content: space-around;
