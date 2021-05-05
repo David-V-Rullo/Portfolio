@@ -4,7 +4,26 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    
+    list-style: none;
+    margin: 0; 
+    background: deepskyblue;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+  }
+  
+  .navigation a:hover {
+    background: #1565C0;
+  }
 .top-content {
     background-color: blue;
     padding: 0 50px;
@@ -12,7 +31,7 @@
 }
 .top-wrapper {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 40em auto;
     grid-gap: 10px;
     background-color: #2196F3;
     padding: 10px;
@@ -42,6 +61,7 @@
     grid-template-columns: auto auto;
     grid-gap: 10px;
     grid-template-rows: max-content;
+    margin-top: 50px;
 
 }
 .item2 {
@@ -52,9 +72,23 @@
     box-shadow: 50px 10px black;
   
 }
+.work-grid {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-gap: 10px;
+    margin-top: 50px;
+}
 
 .item1, .item3, .item4 {
     display: hidden;
+}
+.work-card-one {
+    grid-column: 1 / span 2;
+    border:2px solid black;
+
+}
+.work-card-two {
+    border:2px solid black;
 }
 @media screen and (max-width: 1100px){
     .top-wrapper{
