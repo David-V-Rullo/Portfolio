@@ -15,6 +15,6 @@ I opted to lean more on a 'grid' layout as opposed to FlexBox. It was much easie
 
 The following show the page in two different formats. One for standard browsing and the other for browsing on smaller screens. 
 
-![portfoliodemo](./assets/images/Capture 1.jpg)
+![Screenshot1](./assets/images/Capture 1.jpg)
 
-![portfoliodemotwo](./assets/images/Capture 2.jpg)
+![Screenshot2](./assets/images/Capture 2.jpg)
