@@ -20,3 +20,6 @@ The following show the page in two different formats. One for standard browsing 
 
 ![Capture 1](https://user-images.githubusercontent.com/80405589/117237135-43727000-adf8-11eb-8fb4-9a025a77fdf1.JPG)
 
+## Links
+
+This site was built using [GitHub Pages](https://david-v-rullo.github.io/Portfolio/).
