@@ -15,6 +15,6 @@ I opted to lean more on a 'grid' layout as opposed to FlexBox. It was much easie
 
 The following show the page in two different formats. One for standard browsing and the other for browsing on smaller screens. 
 
-![Screenshot1](./assets/images/Capture 1.jpg)
+![Capture 2](https://user-images.githubusercontent.com/80405589/117237129-3fdee900-adf8-11eb-8f6e-30fd0a516d33.JPG)
+![Capture 1](https://user-images.githubusercontent.com/80405589/117237135-43727000-adf8-11eb-8fb4-9a025a77fdf1.JPG)
 
-![Screenshot2](./assets/images/Capture 2.jpg)
