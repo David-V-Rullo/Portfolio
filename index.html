@@ -8,7 +8,7 @@
     <title>Dave Rullo's Portfio Page</title>
 </head>
 <body>
-    
+    <!-- Hero Content: Two column grid with photo and intro -->
     <header>
         <div class="header-left">
             <h1>Hi, my name is David Rullo</h1>
@@ -17,46 +17,67 @@
         <div class="header-right"><img src="assets\images\Headshot.jpg"> 
         </div>
     </header>
+    <!-- Nav Bar with links to each section for easy browsing -->
     <ul class="navigation">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Work</a></li>
-        <li><a href="#">Resume</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#me">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="https://www.linkedin.com/in/davidrullo/">LinkedIn</a></li>
+        <li><a href="#contact-me">Contact</a></li>
     </ul>
-    <!-- <section>
-        <div class="item3"><h1> </h1></div>
-        <div class="item4"><h1> </h1></div>
-    </section> -->
+    <!-- Each "Content-Bar" creates the break between sections with shadow effect to had some much needed pizazz -->
     <section class="content-bar">
         <div class="item1"><h1></h1></div>
-        <div class="item2"><h1>About</h1></div>
+        <div class="item2"><h1 id="me">About</h1></div>
         <div class="item3"><h1></h1></div>
         <div class="item4"></div>
     </section>
     <section class="top-content">
+        <section></section>
         <section class="top-wrapper">
             <section class="left-column">
-                <h1>1</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu lacus ac arcu ullamcorper faucibus eu vel sem. Morbi maximus ut quam non placerat. Nam eu lorem a magna convallis venenatis quis non dolor. Aliquam molestie lorem sit amet elementum fermentum.</p>
+                <p>I am an aspiring web developer who is currently attending the Rutgers University Full Stack Bootcamp. I am going blind and have had to abandon my law career for a career that is much more favorable to working from home</p>
+                <br>
+                <p>I got my first computer when I was in the eigth grade. This was, to this day, the best Christmas gift I ever received. I poured every second into tinkering with that computer - a custom built Intel 486 33mhz desktop with a whopping 2MB of ram and a bottomless 285MB hard drive.</p>
+                <br>
+                <p>My first program was written in a DOS text editor; using QBASIC I was able to make a program that let me launch all of my games with a couple button pushes.</p>
+                <br>
+                <p>I look forward to seeing what this new career has to offer!</p>
             </section>
             <div class="right-column"></div>
-            <!-- <div class="empty-column">Empty</div>
-            <div class="empty-column2">Empty</div>    -->
         </section>
     </section>
     <section class="content-bar">
         <div class="item1"><h1></h1></div>
-        <div class="item2"><h1>Projects</h1></div>
+        <div class="item2"><h1 id="work">Projects</h1></div>
         <div class="item3"><h1></h1></div>
         <div class="item4"></div>
     </section>
     <div class="work-grid">
-        <div class="work-card-one"><h1>Project 1</h1></div>
-        <div class="work-card-two"><h1>Project 2</h1></div>
-        <div class="work-card-three"><h1>Project 3</h1></div>
+        <div class="work-card-one">
+            <img src= "assets\images\pexels-pixabay-270348.jpg">
+            <h1 class="work">Project 1</h1>
+        </div>
+        <div class="work-card-two">
+            <img src= "assets\images\pexels-lukas-574071.jpg">
+            <h1>Project 2</h1>
+        </div>
+        <div class="work-card-three">
+            <img src= "assets\images\pexels-markus-spiske-2004161.jpg">
+            <h1>Project 3</h1>
+        </div>
     </div>
-    <footer class="border">
-        <p><bold>Copyright David V. Rullo<span id="footer-date">2021</span></bold></p>
+    <section class="content-bar">
+        <div class="item1">       
+        </div>
+        <div class="item2"><h1><h1 id="contact-me">Contact Me:</h1>
+            <h1>Email: d.v.rullo@gmail.com</h1>
+            <h1>GitHub: <a id="git-hub" href="https://github.com/David-V-Rullo">David-V-Rullo</a></div>
+        <div class="item3"><h1></h1></div>
+        <div class="item4"></div>
+    </section>
+    <footer>
+        <p><bold>Copyright David V. Rullo</bold></p>
+        <p><bold>2021</bold></p>
     </footer>
 </body>
 </html>

@@ -31,8 +31,6 @@ header p {
     flex-direction: column;
     max-height: 400px;
     max-width: 400px;
-    /* box-shadow: -20px 10px whitesmoke; */
-
 }
 .navigation {
     display: flex;
@@ -51,11 +49,11 @@ header p {
   }
   
 .navigation a:hover {
-    background: lightskyblue;
+    background: black;
   }
 .top-content {
     background-color: blue;
-    padding: 0 50px;
+    /* padding: 0 50px; */
     color: white;
 }
 .top-wrapper {
@@ -70,13 +68,15 @@ header p {
 .left-column {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: flex-start;
+    flex-wrap:wrap;
     margin:auto;
     padding: 10px;
     grid-row: span 3;
-    grid-column: 1 / span 1;
+    /* grid-column: 1 / span 1; */
     color: whitesmoke;
+    margin-top:30px;
 }
 .right-column {
     display: flex;
@@ -88,7 +88,6 @@ header p {
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 10px;
-    grid-template-rows: max-content;
     margin-top: 50px;
     /* background-color: blue; */
 
@@ -103,6 +102,10 @@ header p {
     padding: 10px 0px 10px 10px;
     box-shadow: 50px 10px whitesmoke;
     color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   
 }
 .work-grid {
@@ -112,7 +115,6 @@ header p {
     margin-top: 50px;
     padding: 30px;
     background-color: blue;
-    
 }
 
 .item1, .item3, .item4 {
@@ -121,15 +123,31 @@ header p {
 }
 .work-card-one {
     grid-column: 1 / span 2;
-    border:2px solid black;
     background-color: whitesmoke;
-
+}
+.work-grid, img {
+    width:100%
 }
 .work-card-two, .work-card-three {
-    border:2px solid black;
     background-color: whitesmoke;
 }
-@media screen and (max-width: 1100px){
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-size: 20px;
+    color: whitesmoke;
+    padding:50px;
+    margin-top:50px;
+}
+#git-hub {
+    text-decoration: none;
+    color: whitesmoke
+}
+
+@media screen and (max-width: 800px){
     .top-wrapper{
         grid-template-columns: 1fr;
     }
@@ -147,6 +165,9 @@ header p {
     }
     .work-card-one {
         grid-column: 1;
+    }
+    .header-right {
+        box-shadow: 20px 45px whitesmoke;
     }
 }
 
