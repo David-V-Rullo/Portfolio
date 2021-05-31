@@ -14,12 +14,10 @@
     <title>Dave Rullo's Portfio Page</title>
   </head>
   <body>
-    <!-- Hero Content: Two column grid with photo and intro -->
-    <header>
-      <div class="container">
-        <div class="row" id="jumbotron">
-          <div class="col-md-8">
-            <h1>Hi, my name is David Rullo</h1>
+  <div class="container-fluid bg-dark text-light">
+        <div class="row justify-content-lg-between" id="jumbotron">
+          <div class="col-md-6 offset-1">
+            <h1>Hi, <br>my name is David Rullo</h1>
             <p>
               This is my portfolio. Feel free to look around. Remember - If you
               break it, you buy it!
@@ -29,16 +27,13 @@
             <img
               src="assets\images\Headshot.jpg"
               alt="Profile pic of me"
-              class="img-fluid"
+              class="img-fluid float-right"
             />
           </div>
         </div>
-      </div>
-    </header>
     <!-- Nav Bar with links to each section for easy browsing -->
-    <div class="container" id="main-content">
       <div class="row">
-        <ul class="nav">
+        <ul class="nav col-4 justify-content-md-around">
           <li class="nav-item"><a class="nav-link" href="#me">About</a></li>
           <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
           <li class="nav-item">
@@ -52,10 +47,15 @@
         </ul>
       </div>
       <div class="row">
-        <div class="float-right col-lg-2" id="headline">
+        <div class="w-100"><br><br></div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4" id="headline">
           <h1>About</h1>
         </div>
-        <section class="col-md-8" id="main-content">
+      </div>
+      <div class="row justify-content-start">
+        <section class="col-md-6" id="main-content">
           <p>
             I am an aspiring web developer who is currently attending the
             Rutgers University Full Stack Bootcamp. I am going blind and have
@@ -81,47 +81,40 @@
         </section>
       </div>
       <div class="row">
-        <div class="col-md-6 work-card-one" id="work-card">
-            <img src= "assets\images\pexels-pixabay-270348.jpg">
-            <h1 class="work">Project 1</h1>
+        <div class="col-lg-4" id="headline">
+          <h1>Current Projects</h1>
         </div>
-        <!-- <div class="col-md-3"></div> -->        
-        <div class="col-md-4 work-card-two" id="work-card">
+      </div>
+      <div class="row justify-content-around">
+        <div class="col-md-6 work-card-one order-sm-2" id="work-card">
+            <img class="img-fluid" src= "./assets/images/screenshot.PNG">
+            <h1 class="work">Congressional Bill Tracker</h1>
+        </div>
+        <div class="col-md-4 order-sm-1" id="project-content">
+          <p>Feel free to click on the project boxes for more details. These are just a few of the beginner projects that I am most proud of. As my portfolio grows these will change. For a full catalog of my work check out my GitHub page.</p>
+        </div>        
+        <div class="col-md-5 work-card-two order-sm-3" id="work-card">
             <img class="img-fluid" src= "assets\images\pexels-lukas-574071.jpg">
             <h1>Project 2</h1>
         </div>
-        <div class="col-md-4 work-card-three" id="work-card">
+        <div class="col-md-5 work-card-three order-sm-4" id="work-card">
             <img class="img-fluid" src= "assets\images\pexels-markus-spiske-2004161.jpg">
             <h1>Project 3</h1>
         </div>
       </div>
-
-    <!-- <div class="work-grid">
-        <div class="work-card-one">
-            <img src= "assets\images\pexels-pixabay-270348.jpg">
-            <h1 class="work">Project 1</h1>
-        </div>
-        <div class="work-card-two">
-            <img src= "assets\images\pexels-lukas-574071.jpg">
-            <h1>Project 2</h1>
-        </div>
-        <div class="work-card-three">
-            <img src= "assets\images\pexels-markus-spiske-2004161.jpg">
-            <h1>Project 3</h1>
-        </div>
-    </div>
-    <section class="content-bar">
-        <div class="item1">       
-        </div>
-        <div class="item2"><h1><h1 id="contact-me">Contact Me:</h1>
+     
+    <section class="col-6" id="headline">
+       <div class="item2"><h1><h1 id="contact-me">Contact Me:</h1>
             <h1>Email: d.v.rullo@gmail.com</h1>
             <h1>GitHub: <a id="git-hub" href="https://github.com/David-V-Rullo">David-V-Rullo</a></div>
         <div class="item3"><h1></h1></div>
         <div class="item4"></div>
-    </section> -->
-    <!-- <footer>
-        <p><bold>Copyright David V. Rullo</bold></p>
-        <p><bold>2021</bold></p>
-    </footer> -->
+    </section>
+    <footer>
+      <p><bold>Copyright David V. Rullo</bold></p>
+      <p><bold>2021</bold></p>
+  </footer>
+  </div>
+    
   </body>
 </html>

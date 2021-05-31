@@ -1,9 +1,20 @@
-#profile-pic {
-    height:auto;
+#profile-pic img {
+    height:300px;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+    position:absolute;
+    margin-top: 15px;
 }
 #jumbotron {
     background-color: navy;
     color:white;
+    font-size: larger;
+    box-shadow: 10px 10px black;
+
+}
+#jumbotron h1 {
+    font-size: 72px;
 }
 #headline {
     background-color: navy;
@@ -13,13 +24,17 @@
     margin-bottom: 20px;
     }
 .nav {
-    background-color: #ccc;
     padding-bottom:20px;
+    margin-top:20px;
+    background-color: navy;
+    box-shadow: 10px 10px black;
+    border-bottom-right-radius: 10px;
+
 }
 #main-content {
-    background-color: #ccc;
     margin:auto;
     font-size: 24px;
+    color:whitesmoke
 }
 #work-card {
     background-color: navy;
@@ -28,5 +43,13 @@
     padding:15px;
     border-radius: 10px;
     box-shadow: 10px 10px black;
-
+    
 }
+#work-card img {
+    border-radius: 10px;
+}
+#project-content {
+    font-size: 24px;
+    padding:10px;
+}
+
